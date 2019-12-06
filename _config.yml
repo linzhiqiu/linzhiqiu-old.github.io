@@ -1,29 +1,27 @@
 # Site
-repository: hailieli/modern-resume-theme
+repository: linzhiqiu/linzhiqiu.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
 name: Zhiqiu Lin
-title:
+title: Undergraduate Researcher
 email: zl279@cornell.edu
 phone: 
-website: 
+website: linzhiqiu.github.io
 
 # Social links
-github_username:  jekyll
-linkedin_username: jekyll
+# github_username:  linzhiqiu
+# linkedin_username: Zhiqiu Lin
 
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: profile.jpg # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  Hi, I am an undergradute researcher at Cornell University.
+  
+  I work at the intersection of **computer vision** and **machine learning**, aiming to build efficient learning systems that can reveal intriguing facets of our world.
+  
+  I do <mark>photography</mark> and <mark>unicycling</mark>!
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -37,9 +35,7 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  I do <mark>photography</mark> and <mark>unicycling</mark>!
 
 # Footer
 footer_show_references: false
