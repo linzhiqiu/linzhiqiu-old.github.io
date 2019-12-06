@@ -38,7 +38,7 @@
   description: | # this will include new lines to allow paragraphs
     <mark>Low-precision Training</mark> <mark>Deep Learning</mark> <mark>Open Source Project</mark>
     
-    A low-precision training simulation framework implemented in *PyTorch*.
+    Low-precision training reduces computational cost and produces efficient models. Recent research in developing new low-precision training algorithms often relies on simulation to empirically evaluate the statistical effects of quantization while avoiding the substantial overhead of building specific hardware. To support this empirical research, we introduce QPyTorch, a low-precision arithmetic simulation framework. Built natively in PyTorch, QPyTorch provides a convenient interface that minimizes the efforts needed to reliably convert existing codes to study low-precision training. QPyTorch is general, and supports a variety of combinations of precisions, number formats, and rounding options. Additionally, it leverages an efficient fused-kernel approach to reduce simulator overhead, which enables simulation of large-scale, realistic problems.
     
 - layout: top-middle
   name: "Engaging Anti-Phishing Training Through a Role-playing Cyber Defense Simulation game"
@@ -48,4 +48,4 @@
   description: | # this will include new lines to allow paragraphs
     <mark>Human Computer Interaction</mark> <mark>Usable Security</mark> <mark>Educational Game</mark>
     
-    An educational game implemented in *Unity* for usable security.
+    Phishing attacks are a major problem, as evidenced by the DNC hackings during the 2016 US presidential election, in which staff were tricked into sharing passwords by fake Goo- gle security emails, granting access to confidential informa- tion. Vulnerabilities such as these are due in part to insufficient and tiresome user training in cybersecurity. Ideally, we would have more engaging training methods that teach cybersecu- rity in an active and entertaining way. To address this need, we introduce the game What.Hack, which not only teaches phish- ing concepts but also simulates actual phishing attacks in a role-playing game to encourage the player to practice defend- ing themselves. Our user study shows that our game design is more engaging and effective in improving performance than a standard form of training and a competing training game design (which does not simulate phishing attempts through role-playing).
