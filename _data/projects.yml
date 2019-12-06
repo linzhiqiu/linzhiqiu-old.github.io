@@ -1,9 +1,9 @@
 # Project template
 - layout: top-middle
   name: Actively Learning in an Open World
-  link: # Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  quote: >
-    Under review at CVPR2020
+  link: linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf
+#   quote: >
+#     Under review at CVPR2020
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Open World Recognition</mark> <mark>Active Learning</mark> <mark>Few-shot Learning</mark>
     
@@ -11,41 +11,24 @@
 
 - layout: top-middle
   name: Visual Chirality
-  link: # Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  quote: >
-    Under review at CVPR2020
+  link: linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf
+#   quote: >
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Self-supervised Learning</mark> <mark>Computational Photography</mark>
-    
-    Description about the work on/with the project
     
 - layout: top-middle
   name: "QPyTorch: A Low Precision Deep Learning Framework"
   link: https://arxiv.org/abs/1910.04540
-  github: Tiiiger/QPyTorch
+#   github: Tiiiger/QPyTorch
   quote: >
-    Published at NeurIPS2019 Workshop
+    NeurIPS2019 Workshop
   description: | # this will include new lines to allow paragraphs
     <mark>Low-precision Training</mark> <mark>Deep Learning</mark> <mark>Open Source Project</mark>
-  
-    Description about the work on/with the project
     
 - layout: top-middle
   name: "Engaging Anti-Phishing Training Through a Role-playing Cyber Defense Simulation game"
   link: https://www.cs.cornell.edu/~eland/papers/chi2019_whathack.pdf
   quote: >
-    Published at CHI 2019
+    CHI 2019
   description: | # this will include new lines to allow paragraphs
     <mark>Human Computer Interaction</mark> <mark>Usable Security</mark> <mark>Educational Game</mark>
-  
-    Phishing attacks are a major problem, as evidenced by the
-    DNC hackings during the 2016 US presidential election, in
-    which staff were tricked into sharing passwords by fake Google security emails, granting access to confidential information. Vulnerabilities such as these are duein part toinsufficient
-    and tiresome user training in cybersecurity. Ideally, we would
-    have more engaging training methods that teach cybersecurity in an active and entertaining way. To address this need, we
-    introduce the game What.Hack, which not only teaches phishing concepts but also simulates actual phishing attacks in a
-    role-playing game to encourage the player to practice defending themselves. Our user study shows that our game design is
-    more engaging and effective in improving performance than
-    a standard form of training and a competing training game
-    design (which does not simulate phishing attempts through
-    role-playing).
