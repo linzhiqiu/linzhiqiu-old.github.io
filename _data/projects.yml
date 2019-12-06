@@ -6,8 +6,7 @@
 #     Under review at CVPR2020
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Open World Recognition</mark> <mark>Active Learning</mark> <mark>Few-shot Learning</mark>
-    
-    Description about the work on/with the project
+    Most recognition systems nowadays live in a ”closed world”. Such a naive assumption is however not what the reality is. In most practical scenarios, the recognition system must be able to confront an ”open world” with concepts it has not yet encountered. In this paper, we formalize such a problem setup by proposing a system that ”actively” combats the ”open” nature of the world through interaction with an oracle, while leveraging and unifying techniques in the fields of open world, few-shot, and active learning.
 
 - layout: top-middle
   name: Visual Chirality
@@ -15,6 +14,7 @@
 #   quote: >
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Self-supervised Learning</mark> <mark>Computational Photography</mark>
+    How can we tell whether an image has been mirrored? While we understand the geometry of mirror reflections very well, less has been said about how it affects distributions of imagery at scale, despite widespread use for data augmenta- tion in computer vision. In this paper, we investigate how the statistics of visual data are changed by reflection. We refer to these changes as “visual chirality,” after the concept of geo- metric chirality—the notion of objects that are distinct from their mirror image. Our analysis of visual chirality reveals surprising results, including low-level chiral signals pervad- ing imagery stemming from image processing in cameras, to the ability to discover visual chirality in images of people and faces. Our work has implications for data augmentation, self-supervised learning, and image forensics.
     
 - layout: top-middle
   name: "QPyTorch: A Low Precision Deep Learning Framework"
@@ -24,6 +24,7 @@
     NeurIPS2019 Workshop
   description: | # this will include new lines to allow paragraphs
     <mark>Low-precision Training</mark> <mark>Deep Learning</mark> <mark>Open Source Project</mark>
+    A low-precision training simulation framework implemented in PyTorch.
     
 - layout: top-middle
   name: "Engaging Anti-Phishing Training Through a Role-playing Cyber Defense Simulation game"
@@ -32,3 +33,4 @@
     CHI 2019
   description: | # this will include new lines to allow paragraphs
     <mark>Human Computer Interaction</mark> <mark>Usable Security</mark> <mark>Educational Game</mark>
+    An educational game implemented in Unity for usable security.
