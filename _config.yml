@@ -19,7 +19,7 @@ about_profile_image: profile.jpg # Directory of profile image (eg. images/profil
 about_content: | # this will include new lines to allow paragraphs
   Hi, I am an undergradute researcher at Cornell University.
   
-  I work at the intersection of **computer vision** and **machine learning**, aiming to build efficient learning systems that can reveal intriguing facets of our world.
+  I work at the intersection of **computer vision** and **machine learning**, aiming to build **efficient** learning systems and reveal **intriguing** facets of our world.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -33,7 +33,7 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  I do <mark>photography</mark> and <mark>unicycling</mark>!
+  I do <mark>(photography)[linzhiqiu.github.io/images/photo/1.jpg]</mark> and <mark>(unicycling)[linzhiqiu.github.io/images/unicycle/1.jpg]</mark>!
 
 # Footer
 footer_show_references: false
