@@ -33,7 +33,7 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  I do <mark>!(photography)[linzhiqiu.github.io/images/photo/1.jpg]</mark> and <mark>!(unicycling)[linzhiqiu.github.io/images/unicycle/1.jpg]</mark>!
+  I do <mark>[photography](linzhiqiu.github.io/images/photo/1.jpg)</mark> and <mark>[unicycling](linzhiqiu.github.io/images/unicycle/1.jpg)</mark>!
 
 # Footer
 footer_show_references: false
