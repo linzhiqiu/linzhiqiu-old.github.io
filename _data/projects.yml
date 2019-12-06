@@ -1,7 +1,7 @@
 # Project template
 - layout: top-middle
   name: Actively Learning in an Open World
-  link: linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf
+  link: [**paper preview**](linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf)
 #   quote: >
 #     Under review at CVPR2020
   description: | # this will include new lines to allow paragraphs
@@ -11,7 +11,7 @@
 
 - layout: top-middle
   name: Visual Chirality
-  link: linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf
+  link: [**paper preview**](linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf)
 #   quote: >
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Self-supervised Learning</mark> <mark>Computational Photography</mark>
