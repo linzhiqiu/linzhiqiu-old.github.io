@@ -1,9 +1,9 @@
 # Project template
 - layout: top-middle
   name: Actively Learning in an Open World
-#   link: [paper preview](linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf)
-  quote: >
-    [paper preview](linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf)
+  link: linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf
+#   quote: >
+#     linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Open World Recognition</mark> <mark>Active Learning</mark> <mark>Few-shot Learning</mark>
     
@@ -15,8 +15,8 @@
     
 - layout: top-middle
   name: Visual Chirality
-#   link: linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf
-  quote: [paper preview](linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf)
+  link: linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf
+#   quote: [paper preview](linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf)
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Self-supervised Learning</mark> <mark>Computational Photography</mark>
     
