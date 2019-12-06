@@ -1,19 +1,19 @@
 # Project template
 - layout: top-middle
   name: Actively Learning in an Open World
-  link: [**paper preview**](linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf)
+#   link: [paper preview](linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf)
 #   quote: >
 #     Under review at CVPR2020
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Open World Recognition</mark> <mark>Active Learning</mark> <mark>Few-shot Learning</mark>
-    Most recognition systems nowadays live in a **closed world**.
+    Most recognition systems nowadays live in a **closed world**. 
     Such a naive assumption is however not what the reality is. 
     In most practical scenarios, the recognition system must be able to confront an **open world** with concepts it has not yet encountered. 
     In this paper, we formalize such a problem setup by proposing a system that **actively** combats the **open** nature of the world through interaction with an oracle, while leveraging and unifying techniques in the fields of open world, few-shot, and active learning.
 
 - layout: top-middle
   name: Visual Chirality
-  link: [**paper preview**](linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf)
+#   link: [paper preview](linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf)
 #   quote: >
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Self-supervised Learning</mark> <mark>Computational Photography</mark>
