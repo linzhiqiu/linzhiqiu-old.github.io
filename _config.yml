@@ -18,7 +18,9 @@ website: linzhiqiu.github.io
 about_profile_image: profile.jpg # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Hi, I am an undergradute researcher at Cornell University.
+  
   I work at the intersection of **computer vision** and **machine learning**, aiming to build efficient learning systems that can reveal intriguing facets of our world.
+  
   I do <mark>photography</mark> and <mark>unicycling</mark>!
 
 # Projects Section
