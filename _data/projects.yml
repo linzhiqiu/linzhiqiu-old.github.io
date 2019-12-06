@@ -1,11 +1,12 @@
 # Project template
 - layout: top-middle
   name: Actively Learning in an Open World
-#   link: [paper preview](linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf)
+  link: [paper preview](linzhiqiu.github.io/pdf/Open_World_Active_Learning_2019_12.pdf)
 #   quote: >
 #     Under review at CVPR2020
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Open World Recognition</mark> <mark>Active Learning</mark> <mark>Few-shot Learning</mark>
+    
     Most recognition systems nowadays live in a **closed world**. 
     Such a naive assumption is however not what the reality is. 
     In most practical scenarios, the recognition system must be able to confront an **open world** with concepts it has not yet encountered. 
@@ -13,10 +14,11 @@
 
 - layout: top-middle
   name: Visual Chirality
-#   link: [paper preview](linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf)
+  link: [paper preview](linzhiqiu.github.io/pdf/Learning_Chirality_2019_12.pdf)
 #   quote: >
   description: | # this will include new lines to allow paragraphs
     <mark>Computer Vision</mark> <mark>Self-supervised Learning</mark> <mark>Computational Photography</mark>
+    
     How can we tell whether an image has been mirrored? 
     While we understand the geometry of mirror reflections very well, less has been said about how it affects distributions of imagery at scale, 
     despite widespread use for data augmentation in computer vision. 
@@ -34,7 +36,8 @@
     NeurIPS2019 Workshop
   description: | # this will include new lines to allow paragraphs
     <mark>Low-precision Training</mark> <mark>Deep Learning</mark> <mark>Open Source Project</mark>
-    A low-precision training simulation framework implemented in PyTorch.
+    
+    A low-precision training simulation framework implemented in *PyTorch*.
     
 - layout: top-middle
   name: "Engaging Anti-Phishing Training Through a Role-playing Cyber Defense Simulation game"
@@ -43,4 +46,5 @@
     CHI 2019
   description: | # this will include new lines to allow paragraphs
     <mark>Human Computer Interaction</mark> <mark>Usable Security</mark> <mark>Educational Game</mark>
-    An educational game implemented in Unity for usable security.
+    
+    An educational game implemented in *Unity* for usable security.
