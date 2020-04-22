@@ -149,6 +149,22 @@ hr {
   transform: translate3d(-250px, 0px, 0px);
 }
 
+.slideup-container {
+  /*position: relative;*/
+  height: 125px;
+  overflow: hidden;
+}
+
+.slideup-container img:hover{
+  /*position: relative;*/
+  transition: transform .5s ease-in-out;
+}
+
+.slideup-container img:hover{
+  /*position: relative;*/
+  transform: translate3d(0px, -125px, 0px);
+}
+
 .teaser {
   /*position: absolute;*/
   width: 250px;
@@ -156,12 +172,14 @@ hr {
 }
 
 .teaser-answer {
-  visibility: hidden;
+  opacity:0;
+  transition:1.2s;
 }
 
 .teaser:hover .teaser-answer {
-  visibility: visible;
+    opacity:1;
 }
+
 /*.overlay {
   position: absolute;
   top: 0;
