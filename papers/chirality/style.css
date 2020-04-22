@@ -139,13 +139,10 @@ hr {
   overflow: hidden;
 }
 
-.slide-container img:hover{
+
+.slide-container img:hover, .slide-container img:active{
   /*position: relative;*/
   transition: transform .5s ease-in-out;
-}
-
-.slide-container img:hover{
-  /*position: relative;*/
   transform: translate3d(-250px, 0px, 0px);
 }
 
@@ -157,7 +154,7 @@ hr {
 
 .slideup-container img:hover, .slideup-container img:active{
   /*position: relative;*/
-  transition: transform .5s ease-in-out;
+  transition: ease-in-out;
   transform: translate3d(0px, -125px, 0px);
 }
 
@@ -177,7 +174,7 @@ hr {
   transition:1.2s;
 }
 
-.teaser:hover .teaser-answer, .teaser:active .teaser-answer {
+.teaser .teaser-answer:hover, .teaser .teaser-answer:active  {
     opacity:1;
 }
 
