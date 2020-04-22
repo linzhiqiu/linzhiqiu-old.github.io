@@ -155,15 +155,16 @@ hr {
   overflow: hidden;
 }
 
-.slideup-container img:hover{
+.slideup-container img:hover, .slideup-container img:active{
   /*position: relative;*/
   transition: transform .5s ease-in-out;
-}
-
-.slideup-container img:hover{
-  /*position: relative;*/
   transform: translate3d(0px, -125px, 0px);
 }
+
+/*.slideup-container img:hover{
+  position: relative;
+  transform: translate3d(0px, -125px, 0px);
+}*/
 
 .teaser {
   /*position: absolute;*/
@@ -176,7 +177,7 @@ hr {
   transition:1.2s;
 }
 
-.teaser:hover .teaser-answer {
+.teaser:hover .teaser-answer, .teaser:active .teaser-answer {
     opacity:1;
 }
 
