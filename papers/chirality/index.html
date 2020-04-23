@@ -9,7 +9,13 @@
 
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script type="text/javascript">google.load("jquery", "1.3.2");</script>
-
+<script type="text/javascript">
+function make_visible(id){
+  document.getElementById(id).style.opacity=1;
+  var toRemove= document.getElementById('a'+id)
+  toRemove.parentNode.removeChild(toRemove);
+}
+</script>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 
 <html>
@@ -74,22 +80,22 @@
         <tr>
           <td valign="middle" halign="middle">
             <center>
-              <div class="slide-container">
+              <div class="slide-container" onclick="make_visible('t1')">
                 <img src = "./images/teaser/text_teaser.png" height="250px"></img><br>
               </div>
 
             </center>
           </td>
-          <td valign="middle" halign="middle">
+          <td valign="middle" halign="middle" >
             <center>
-              <div class="slide-container">
+              <div class="slide-container" onclick="make_visible('t2')">
               <img src = "./images/teaser/button_teaser.png" height="250px"></img><br>
               </div>
             </center>
           </td>
           <td valign="middle" halign="middle">
             <center>
-              <div class="slide-container">
+              <div class="slide-container" onclick="make_visible('t3')">
               <img src = "./images/teaser/guitar_teaser.png" height="250px"></img><br>
               </div>
             </center>
@@ -98,30 +104,30 @@
         <tr>
           <!-- <td colspan="2"> -->
           <td>
-            <div class="teaser">
-            <span class='teaser-question' style="font-size:14px; text-align:center;">
-              <strong>Is this image flipped?</strong>
+            <div class='teaser'>
+            <span style="font-size:14px; text-align:center;">
+              <strong>Is this image flipped? </strong> <span id='at1'><i>[Click it for answer!]</i></span>
             </span>
-            <span class='teaser-answer' style="font-size:14px; text-align:center;">
-              <strong>Yes!</strong> <br /> <i>Text chirality. Text (in any language) is strongly chiral. </i>
+            <span id='t1' style="font-size:14px; text-align:center; opacity: 0;">
+              <br><strong style="color:red">Yes!</strong> <br /> [Text chirality]<i> Text (in any language) is strongly chiral. </i>
             </span>  </div>
           </td>
           <td>
-            <div class="teaser">
-            <span class='teaser-question' style="font-size:14px; text-align:center;">
-              <strong>Is this image flipped?</strong>
+            <div class='teaser'>
+            <span style="font-size:14px; text-align:center;">
+              <strong>Is this image flipped? </strong> <span id='at2'><i>[Click it for answer!]</i></span>
             </span>
-            <span class='teaser-answer' style="font-size:14px; text-align:center;">
-              <strong>No!</strong> <br /> <i>Object chirality. The shirt collar, and in particular which side the buttons are on, exhibit more subtle visual chirality.</i>
+            <span id='t2' style="font-size:14px; text-align:center; opacity: 0;">
+              <br><strong style="color:red">No!</strong> <br /> [Object chirality]<i> The shirt collar, and in particular which side the buttons are on, exhibit more subtle visual chirality.</i>
             </span>  </div>
           </td>
           <td>
-            <div class="teaser">
-            <span class='teaser-question' style="font-size:14px; text-align:center;">
-              <strong>Is this image flipped?</strong>
+            <div class='teaser'>
+            <span style="font-size:14px; text-align:center; ">
+              <strong>Is this image flipped? </strong> <span id='at3'><i>[Click it for answer!]</i></span>
             </span>
-            <span class='teaser-answer' style="font-size:14px; text-align:center;">
-              <strong>Yes!</strong> <br /> <i>Object interaction chirality. While guitars are often (nearly) symmetric, the way we hold them is not (the left hand is usually on the fretboard).</i>
+            <span id='t3' style="font-size:14px; text-align:center; opacity: 0;">
+              <br><strong><span style="color:red">Yes!</span></strong> <br /> [Object interaction chirality]<i> While guitars are often (nearly) symmetric, the way we hold them is not (the left hand is usually on the fretboard).</i>
             </span>  </div>
           </td>
         </tr>
@@ -133,10 +139,10 @@
       <hr>
       <table align=center width=800>
        <center><h1>Examples of Visual Chirality</h1></center>
-       <center>Below are the examples of high level visual chirality cues we found by training on the Instagram dataset.</center> <br>
+       <center>Below are examples of clusters of high level visual chirality cues we found by training on the Instagram dataset.</center> <br>
           <tr>
             
-            <td width=100px><span style="font-size:14pt"><strong>Phones.</strong></td><td>
+            <td width=100px><span style="font-size:14pt"><strong>Phones</strong></td><td>
               <div class="slideup-container">
               <img src = "./images/instaclusters/phones/teaser.jpg" height="250px"></img><br>
               </div>
@@ -145,7 +151,7 @@
 
           <tr>
             
-            <td width=100px><span style="font-size:14pt"><strong>Collars.</strong></td><td>
+            <td width=100px><span style="font-size:14pt"><strong>Collars</strong></td><td>
               <div class="slideup-container">
               <img src = "./images/instaclusters/shirtcollars/teaser.jpg" height="250px"></img><br>
               </div>
@@ -154,7 +160,7 @@
 
           <tr>
             
-            <td width=100px><span style="font-size:14pt"><strong>Pockets.</strong></td><td>
+            <td width=100px><span style="font-size:14pt"><strong>Pockets</strong></td><td>
               <div class="slideup-container">
               <img src = "./images/instaclusters/shirtpockets/teaser.jpg" height="250px"></img><br>
               </div>
@@ -163,7 +169,7 @@
 
           <tr>
             
-            <td width=100px><span style="font-size:14pt"><strong>Faces.</strong></td><td>
+            <td width=100px><span style="font-size:14pt"><strong>Faces</strong></td><td>
               <div class="slideup-container">
               <img src = "./images/instaclusters/faces/teaser.jpg" height="250px"></img><br>
               </div>
@@ -172,7 +178,7 @@
 
           <tr>
             
-            <td width=100px><span style="font-size:14pt"><strong>Watches.</strong></td><td>
+            <td width=100px><span style="font-size:14pt"><strong>Watches</strong></td><td>
               <div class="slideup-container">
               <img src = "./images/instaclusters/watches/teaser.jpg" height="250px"></img><br>
               </div>
@@ -196,14 +202,26 @@
        <center><h1>Paper</h1></center>
           <tr>
             <td><a href="https://www.google.com"><img style="width:400px" src="./images/simple_chirality.png"/></a></td>
-            <td><span style="font-size:14pt">Lin, Sun, Davis, and Snavely.<br><br>
-                Visual Chirality.<br><br>
+            <td><span style="font-size:14pt">Zhiqiu Lin, Jin Sun, Abe Davis, and Noah Snavely.<br>
+                Visual Chirality.<br>
               CVPR 2020 (Oral).<br>
-                <a href="https://www.google.com">[pdf]</a> &nbsp; &nbsp;
-                <a href="./bibtex.txt">[Bibtex]</a></span><br>
+                <a href="https://www.google.com">[Paper]</a> &nbsp; &nbsp;
+                <a href="https://www.google.com">[Arxiv]</a></span><br><br>
+                
+                If you want to cite our papers, please use our Bibtex! <br>
+              
               </td>
+          
           </tr>
+            
       </table>
+      <pre><code>
+          @InProceedings{chirality20,
+            title={Visual Chirality},
+            author = {Zhiqiu Lin and Jin Sun and Abe Davis and Noah Snavely},
+            booktitle={Computer Vision and Pattern Recognition (CVPR)},
+            year={2020}
+          }</code></pre>
 
       <hr>
 

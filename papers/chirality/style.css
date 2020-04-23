@@ -120,6 +120,23 @@ td.dl-link {
     transform: translateY(-50%);
 }
 
+pre {
+    overflow-x: auto;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: #eee;
+    padding: 5px 5px 5px 10px;
+    line-height:1.2
+}
+
+pre code {
+    text-align: left;
+    word-wrap: normal;
+    white-space: pre-wrap;
+    font-size:12px
+}
+
 hr {
     border: 0;
     height: 1.5px;
@@ -142,7 +159,7 @@ hr {
 
 .slide-container img:hover, .slide-container img:active{
   /*position: relative;*/
-  transition: transform .5s ease-in-out;
+  transition: ease-in-out;
   transform: translate3d(-250px, 0px, 0px);
 }
 
@@ -165,8 +182,8 @@ hr {
 
 .teaser {
   /*position: absolute;*/
-  width: 250px;
-  height: 32px;
+  width: 270px;
+  height: 55px;
 }
 
 .teaser-answer {
