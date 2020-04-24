@@ -133,13 +133,13 @@ function make_visible(id){
         </tr>
       </table>
         <br><br>
-    How can we tell whether an image has been mirrored? While we understand the geometry of mirror reflections very well, less has been said about how it affects distributions of imagery at scale, despite widespread use for data augmentation in computer vision. In this paper, we investigate how the statistics of visual data are changed by reflection. We refer to these changes as ''visual chirality'', after the concept of geometric chirality -- the notion of objects that are distinct from their mirror image. Our analysis of visual chirality reveals surprising results, including low-level chiral signals pervading imagery stemming from image processing in cameras, to the ability to discover visual chirality in images of people and faces. Our work has implications for data augmentation, self-supervised learning, and image forensics.
+    <p align=left style="width:1000px; padding: 0px 0px 0px 60px">How can we tell whether an image has been mirrored? While we understand the geometry of mirror reflections very well, less has been said about how it affects distributions of imagery at scale, despite widespread use for data augmentation in computer vision. In this paper, we investigate how the statistics of visual data are changed by reflection. We refer to these changes as ''visual chirality'', after the concept of geometric chirality -- the notion of objects that are distinct from their mirror image. Our analysis of visual chirality reveals surprising results, including low-level chiral signals pervading imagery stemming from image processing in cameras, to the ability to discover visual chirality in images of people and faces. Our work has implications for data augmentation, self-supervised learning, and image forensics.</p>
 
-      <br><br>
+      <br>
       <hr>
       <table align=center width=800>
        <center><h1>Examples of Visual Chirality</h1></center>
-       <center>Below are examples of clusters of high level visual chirality cues we found by training on the Instagram dataset.</center> <br>
+       <p align=center style="width:1000px; padding: 0px 0px 0px 60px">Below are examples of clusters of high level visual chirality cues we found by training on the Instagram dataset.</p> <br>
           <tr>
             
             <td width=100px><span style="font-size:14pt"><strong>Phones</strong></td><td>
@@ -189,8 +189,46 @@ function make_visible(id){
       <br><br>
       <hr>
       <table align=center width=800>
+       <center><h1>Chirality cues in human faces</h1></center>
+       <p align=left style="width:1000px; padding: 0px 0px 0px 60px">By training on the <a href="https://github.com/NVlabs/ffhq-dataset">Flickr-Faces-HQ</a> dataset, we also discovered that human faces are especially chiral (i.e., a ResNet model trained to identify whether a random FFHQ face image has been flipped or not could achieve a test accuracy over 80%). Again, we clustered the chirality cues in human faces (as below), and we provide some analysis of these clusters in our paper.</p> <br>
+
+          <tr>
+            
+            <td>
+              <img src = "./images/new_faces/beard/final.png" height="350px"></img><br>
+              </td>
+
+            <td>
+              <img src = "./images/new_faces/hair/final.png" height="350px"></img><br>
+              </td>
+          </tr>
+
+          <tr>
+            <td><span style="font-size:14pt"><strong>Beard</strong></span></td>
+            <td><span style="font-size:14pt"><strong>Hair Part</strong></span></td>
+          </tr>
+          <tr>
+            
+            <td>
+              <img src = "./images/new_faces/eye/final.png" height="350px"></img><br>
+              </td>
+
+             <td>
+              <img src = "./images/new_faces/dimple/final.png" height="350px"></img><br>
+              </td>
+          </tr>
+
+          <tr>
+            <td><span style="font-size:14pt"><strong>Eye Gaze</strong></span></td>
+            <td><span style="font-size:14pt"><strong>Dimple</strong></span></td>
+          </tr>
+      </table>
+
+      <br><br>
+      <hr>
+      <table align=center width=800>
        <center><h1>The Chirality of Image Processing</h1></center>
-         When we first attempted to train our model to distinguish between images and their reflections, we quickly observed that the network would find ways to accomplish this task using low-level cues that appeared only loosely correlated with the image’s content. Furthermore, the strength of these cues seemed to vary a great deal with changes in how data was prepared. In particular, we founded that the way we capture and process visual data -- even down to the level of Bayer mosaics in cameras or JPEG compression -- can have a significant impact on its chirality. In the supplemental material we develop theoretical tools based on a commutative test to help reason about that impact, and use this theory to predict what networks will learn in experiments. <br>
+         <p align=left style="width:1000px; padding: 0px 0px 0px 60px">When we first attempted to train our model to distinguish between images and their reflections, we quickly observed that the network would find ways to accomplish this task using low-level cues that appeared only loosely correlated with the image content. Furthermore, the strength of these cues seemed to vary a great deal with changes in how data was prepared. In particular, we founded that the way we capture and process visual data -- even down to the level of Bayer mosaics in cameras or JPEG compression -- can have a significant impact on its chirality. In the supplemental material we develop theoretical tools based on a commutative test to help reason about that impact, and use this theory to predict what networks will learn in synthetic experiments.</p> <br>
           <tr>
             <td><a href="https://www.google.com"><img style="width:800px" src="./images/commutative_test.png"/></a></td>
           </tr>
@@ -198,7 +236,7 @@ function make_visible(id){
 
       <br><br>
       <hr>
-      <table align=center width=800>
+      <table align=center width=900>
        <center><h1>Paper</h1></center>
           <tr>
             <td><a href="https://www.google.com"><img style="width:400px" src="./images/simple_chirality.png"/></a></td>
@@ -207,21 +245,21 @@ function make_visible(id){
               CVPR 2020 (Oral).<br>
                 <a href="https://www.google.com">[Paper]</a> &nbsp; &nbsp;
                 <a href="https://www.google.com">[Arxiv]</a></span><br><br>
-                
-                If you want to cite our papers, please use our Bibtex! <br>
+              
               
               </td>
           
           </tr>
             
-      </table>
-      <pre><code>
-          @InProceedings{chirality20,
-            title={Visual Chirality},
-            author = {Zhiqiu Lin and Jin Sun and Abe Davis and Noah Snavely},
-            booktitle={Computer Vision and Pattern Recognition (CVPR)},
-            year={2020}
-          }</code></pre>
+      </table> <br>
+      <center>If you want to cite our papers, please use this Bibtex! </center> <br>
+      <div align=center style="width:800">
+      <pre><code>@InProceedings{chirality20,
+  title={Visual Chirality},
+  author = {Zhiqiu Lin and Jin Sun and Abe Davis and Noah Snavely},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
+  year={2020}
+}</code></pre></div>
 
       <hr>
 
