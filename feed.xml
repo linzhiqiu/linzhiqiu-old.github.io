@@ -1,5 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-17T12:31:15-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Zhiqiu Lin</title><subtitle>&quot;Zhiqiu Lin's Personal Website&quot;
-</subtitle><author><name>Zhiqiu Lin</name><email>zhiqiul@andrew.cmu.edu</email></author><entry><title type="html">Iceland</title><link href="http://localhost:4000/blog/photography/2019-04-19-iceland/" rel="alternate" type="text/html" title="Iceland" /><published>2019-04-19T00:00:00-04:00</published><updated>2019-04-19T00:00:00-04:00</updated><id>http://localhost:4000/blog/photography/iceland</id><content type="html" xml:base="http://localhost:4000/blog/photography/2019-04-19-iceland/">&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/iceland/lake_3.JPG&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-17T14:36:42-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Zhiqiu Lin</title><subtitle>&quot;Zhiqiu Lin's Personal Website&quot;
+</subtitle><author><name>Zhiqiu Lin</name><email>zhiqiul@andrew.cmu.edu</email></author><entry><title type="html">My Best Homemade Recipes</title><link href="http://localhost:4000/blog/photography/2020-08-10-cuisine/" rel="alternate" type="text/html" title="My Best Homemade Recipes" /><published>2020-08-10T00:00:00-04:00</published><updated>2020-08-10T00:00:00-04:00</updated><id>http://localhost:4000/blog/photography/cuisine</id><content type="html" xml:base="http://localhost:4000/blog/photography/2020-08-10-cuisine/">&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/lapi.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Chinese glass noodle with homemade sesame sauce&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/kaofu.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Marinated wheat gluten with peanuts and black fungus&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/chicken.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Japanese style BBQ chicken with scallion&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/cake.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Stawberry and green tea mousse&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/lamian.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Japanese ramen&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/bocai.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Shrimp and spinach salad&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/niuli.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Black pepper garlic with beef cubes&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/baiye.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Cantonese-style steamed beef tripes&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/doufu.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Tofu skin salad&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/zhuer.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Spicy pig ears&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/shuizhu.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Sichuan-style spicy beef&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/mian.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Pickled cabbage and minced pork noodles&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/doufunao.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Beijing-style tofu pudding&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/furu.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Stir-fried water spinach with chili in fermented bean curd sauce&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/huanggua.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Spicy cucumber salad&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/jili.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Stir－fried diced chicken with flour paste&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/mapo.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Mapo tofu&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/xiefen.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Crab meat tofu&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/suanni.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Sliced pork with garlic sauce&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/jisi.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Shredded chicken with soy sauce&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/kaodoufu.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+BBQ tofu&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/mayi.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Sauteed vermicelli with minced pork&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/shanbei.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Steamed scallops with minced garlic&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/shengcai.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Sauteed lettuce in oyster sauce&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/xihongshi.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Tomato and egg soup&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/pidan.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Delicious century egg&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/shangtang.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Braised bean sprouts in broth&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/new/suanlapi.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Ningxia glass noodles&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/qianceng.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Meat pie&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/kaozhuti.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Roasted pig feet&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/zhupaigali.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Japanese curry with fried pork&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/buding.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Mongo milk pudding&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/shousi.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Sweet milk bun&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/shouxi.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Sukiyaki&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/zhixinzhupai.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Fried pork with cheess&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/food/old/binghua.jpeg&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
+Icy dumplings&lt;/p&gt;</content><author><name>Zhiqiu Lin</name><email>zhiqiul@andrew.cmu.edu</email></author><summary type="html">Chinese glass noodle with homemade sesame sauce</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/food/new/chicken.jpeg" /></entry><entry><title type="html">Iceland</title><link href="http://localhost:4000/blog/photography/2019-04-19-iceland/" rel="alternate" type="text/html" title="Iceland" /><published>2019-04-19T00:00:00-04:00</published><updated>2019-04-19T00:00:00-04:00</updated><id>http://localhost:4000/blog/photography/iceland</id><content type="html" xml:base="http://localhost:4000/blog/photography/2019-04-19-iceland/">&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/iceland/lake_3.JPG&quot; alt=&quot;&quot; class=&quot;lead&quot; data-width=&quot;800&quot; data-height=&quot;100&quot; /&gt;
 We took a 2h diving lesson in this lake (that was freezing-cold).&lt;/p&gt;
 
 &lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/iceland/church.JPG&quot; alt=&quot;&quot; class=&quot;lead&quot; /&gt;
