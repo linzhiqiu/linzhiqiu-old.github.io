@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/blog/photography/</loc>
-<lastmod>2020-12-23T22:02:32-05:00</lastmod>
+<lastmod>2022-04-16T12:00:41-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/photography/2019-04-19-iceland/</loc>
@@ -23,6 +23,10 @@
 <url>
 <loc>http://localhost:4000/projects/visual-chirality/</loc>
 <lastmod>2020-06-16T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/clear/</loc>
+<lastmod>2021-09-30T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/photography/drafts/2020-05-20-unicycling/</loc>
